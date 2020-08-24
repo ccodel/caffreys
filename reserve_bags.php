@@ -11,7 +11,7 @@ mail("caffreysportspub@gmail.com", "Bags reservation for " . $name, $msg);
 // Give a success message
 $_SESSION["success"] = true;
 
-header("Location: index.html");
+header("Location: index.html#bags");
 exit();
 
 ?>
