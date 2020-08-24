@@ -1,0 +1,75 @@
+/* New classes */
+.dark {
+  color: white;
+  text-color: white;
+}
+
+.content {
+  flex: 1;
+}
+
+/* Edit natural HTML tags */
+body {
+  /* padding-top: 65px; */
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+section {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+*/
+/*
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color: black;
+  height: 1px;
+}
+*/
+
+footer {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a, button, input, label {
+  z-index: 9;
+  position: relative;
+}
+
+#hours:before, #menu:before, #location:before, #about:before, #contact:before, #bags:before  {
+  content: "";
+  display: block;
+  height: 225px;
+  margin: -100px 0 0;
+}
+
+/* Adjust Bootstrap classes */
+.navbar > a, .navbar-nav > a {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-group-item.active {
+  color: white;
+  background-color: #353a3f;
+  border-color: #353a3f;
+  text-color: inherit;
+}
